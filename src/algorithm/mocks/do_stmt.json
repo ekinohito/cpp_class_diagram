@@ -1,0 +1,79 @@
+{
+  "id": "0x7fbb0781f7f8",
+  "kind": "DoStmt",
+  "range": {
+    "begin": {
+      "offset": 214,
+      "line": 16,
+      "col": 9,
+      "tokLen": 2
+    },
+    "end": {
+      "offset": 259,
+      "line": 18,
+      "col": 22,
+      "tokLen": 1
+    }
+  },
+  "inner": [
+    {
+      "id": "0x7fbb0781f7d0",
+      "kind": "CompoundStmt",
+      "range": {
+        "begin": {
+          "offset": 217,
+          "line": 16,
+          "col": 12,
+          "tokLen": 1
+        },
+        "end": {
+          "offset": 246,
+          "line": 18,
+          "col": 9,
+          "tokLen": 1
+        }
+      },
+      "inner": [
+        {
+          "id": "0x7fbb0781f7c8",
+          "kind": "BreakStmt",
+          "range": {
+            "begin": {
+              "offset": 231,
+              "line": 17,
+              "col": 13,
+              "tokLen": 5
+            },
+            "end": {
+              "offset": 231,
+              "col": 13,
+              "tokLen": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x7fbb0781f7e8",
+      "kind": "CXXBoolLiteralExpr",
+      "range": {
+        "begin": {
+          "offset": 255,
+          "line": 18,
+          "col": 18,
+          "tokLen": 4
+        },
+        "end": {
+          "offset": 255,
+          "col": 18,
+          "tokLen": 4
+        }
+      },
+      "type": {
+        "qualType": "bool"
+      },
+      "valueCategory": "prvalue",
+      "value": true
+    }
+  ]
+}

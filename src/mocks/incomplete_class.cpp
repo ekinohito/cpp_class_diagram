@@ -1,0 +1,6 @@
+class IncompleteClassIncludedOnce;
+
+
+class IncompleteClassIncludedOnce {
+
+};

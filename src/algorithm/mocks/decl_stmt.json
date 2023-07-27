@@ -1,0 +1,70 @@
+{
+  "id": "0x7fbb0781f290",
+  "kind": "DeclStmt",
+  "range": {
+    "begin": {
+      "offset": 47,
+      "line": 4,
+      "col": 9,
+      "tokLen": 3
+    },
+    "end": {
+      "offset": 56,
+      "col": 18,
+      "tokLen": 1
+    }
+  },
+  "inner": [
+    {
+      "id": "0x7fbb0781f208",
+      "kind": "VarDecl",
+      "loc": {
+        "offset": 51,
+        "col": 13,
+        "tokLen": 1
+      },
+      "range": {
+        "begin": {
+          "offset": 47,
+          "col": 9,
+          "tokLen": 3
+        },
+        "end": {
+          "offset": 55,
+          "col": 17,
+          "tokLen": 1
+        }
+      },
+      "isUsed": true,
+      "name": "a",
+      "mangledName": "__ZZN6ClassA11rich_methodEvE1a",
+      "type": {
+        "qualType": "int"
+      },
+      "init": "c",
+      "inner": [
+        {
+          "id": "0x7fbb0781f270",
+          "kind": "IntegerLiteral",
+          "range": {
+            "begin": {
+              "offset": 55,
+              "col": 17,
+              "tokLen": 1
+            },
+            "end": {
+              "offset": 55,
+              "col": 17,
+              "tokLen": 1
+            }
+          },
+          "type": {
+            "qualType": "int"
+          },
+          "valueCategory": "prvalue",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
